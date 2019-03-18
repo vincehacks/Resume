@@ -1,0 +1,25 @@
+body{
+  font-family: Arial;
+}
+
+.header{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact-info p{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.wrapper{
+  margin: 45px 250px 45px 250px;
+}

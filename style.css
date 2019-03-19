@@ -2,6 +2,16 @@ body{
   font-family: Arial;
 }
 
+hr{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+aside h4{
+  text-align: center;
+  margin-bottom: 0;
+}
+
 .header{
   text-align: center;
   display: flex;
@@ -21,5 +31,34 @@ body{
 }
 
 .wrapper{
-  margin: 45px 250px 45px 250px;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.main-content-wrapper{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: 0px 25px 0px 250px;
+  padding-right: 200px;
+}
+
+.section-content{
+  margin-left: 45px;
+}
+
+.side-content-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.card{
+  border: 1px solid;
+  width: 35%;
 }

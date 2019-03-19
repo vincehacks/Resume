@@ -6,142 +6,189 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- This is the top section header -->
+    <div class="header">
+      <h1>VINCENT CHANG</h1>
+      <div class="contact-info">
+        <p><img src="assets/phone.png" alt="" /> (415) 442-2154</p>
+        <p>|</p>
+        <p>
+          <img src="assets/email.png" alt="" />
+          <a href="mailto:vincent.chang@macys.com">vincentchang@macys.com</a>
+        </p>
+        <p>|</p>
+        <p>
+          <img src="assets/linkedin.png" alt="" />
+          <a href="https://www.linkedin.com/in/vincechang26">vincechang26</a>
+        </p>
+        <p>|</p>
+        <p>
+          <img src="assets/github.jpg" alt="" />
+          <a href="https://github.com/vincehacks">vincehacks</a>
+        </p>
+      </div>
+      <hr />
+    </div>
     <!-- Main Content Section -->
     <main>
       <div class="wrapper">
-        <!-- This is the top section header -->
-        <div class="header">
-          <h1>VINCENT CHANG</h1>
-          <div class="contact-info">
-            <p><img src="assets/phone.png" alt="" /> (415) 442-2154</p>
-            <p>|</p>
-            <p>
-              <img src="assets/email.png" alt="" />
-              <a href="mailto:vincent.chang@macys.com"
-                >vincentchang@macys.com</a
-              >
-            </p>
-            <p>|</p>
-            <p>
-              <img src="assets/linkedin.png" alt="" />
-              <a href="https://www.linkedin.com/in/vincechang26"
-                >vincechang26</a
-              >
-            </p>
-            <p>|</p>
-            <p>
-              <img src="assets/github.jpg" alt="" />
-              <a href="https://github.com/vincehacks">vincehacks</a>
-            </p>
+        <div class="main-content-wrapper">
+          <div class="work-experience">
+            <h3>WORK EXPERIENCE</h3>
+            <div class="section-content">
+              <h4>Software Engineer, Macy's.com</h4>
+              <ul>
+                <li>
+                  Build and create dashboards using ELK stack to measure various
+                  teams metrics
+                </li>
+                <li>
+                  Create and maintain React projects responsible for UI on
+                  dashboards
+                </li>
+                <li>Configure data pipeline, ingest, and maintain data flow</li>
+              </ul>
+              <h4>Software Engineer Intern, DIRECTV</h4>
+              <ul>
+                <li>
+                  Implement scripts to stress test servers using automated test
+                  tools: Jenkins, JMeter, CA Lisa, FloodIO
+                </li>
+                <li>
+                  Measured system performance by load balancing on VM clusters
+                  using AWS
+                </li>
+                <li>
+                  Verified user login scenarios on NFL Sunday Ticket: response
+                  time, cpu/memory, % error traffic using AppDynamics & Splunk
+                </li>
+                <li>
+                  Performed black-box functional software testing for mobile &
+                  smart devices
+                </li>
+              </ul>
+              <h4>Computer Science Tutor, UC San Diego</h4>
+              <ul>
+                <li>
+                  Assisted with assignments in Java, Python, Unix, GIT, OO
+                  design
+                </li>
+                <li>
+                  Encouraged & aided students with algorithmic problem-solving
+                  10 hrs/week
+                </li>
+                <li>
+                  Tutored: Intro to Java, Software Engineering, Software Tools
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="projects">
+            <h3>PROJECTS</h3>
+            <div class="section-content">
+              <h4>Macy's License Plate Store</h4>
+              <ul>
+                <li>
+                  Macy's UI Polaris front-end responsive project that utilizes
+                  Macy's CLI
+                </li>
+                <li>
+                  Build using MVC framework; Backbone/Marionette using
+                  Handlebars
+                </li>
+                <li>Layout designed using Flexbox/SCSS and Macy's CSG Guide</li>
+                <li>
+                  Partially tested with Karma Tests and Jasmine Testing
+                  Framework
+                </li>
+              </ul>
+              <h4>Boba Me (WIP)</h4>
+              <ul>
+                <li>
+                  Full-stack; responsive website built with ReactJS, HTML/CSS/JS
+                </li>
+                <li>
+                  Purpose: Connect boba drinkers to locations in the Bay Area
+                </li>
+                <li>Implementing functionality to integrate Yelp API</li>
+              </ul>
+              <h4>Iron Orr Gym Website</h4>
+              <ul>
+                <li>
+                  Increased web traffic by 20% by desigining differet UI for gym
+                  website
+                </li>
+                <li>
+                  Analyzed A/B test results & metrics using Optimizely & Google
+                  Analytics
+                </li>
+                <li>
+                  New layout design increased member appointments & 4
+                  memeberships in 10 weeks
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="education">
+            <h3>EDUCATION</h3>
+            <div class="section-content">
+              <p>
+                <strong>University of California, San Diego,</strong> September
+                2014 - March 2017
+              </p>
+              <ul>
+                <li>Computer Science , B.S</li>
+              </ul>
+              <p>
+                <strong>Skyline College, San Bruno, CA</strong> June 2010 - May
+                2014
+              </p>
+              <ul>
+                <li>
+                  Mathematics, A.A | Natural Sciences A.S | Interdisciplinary
+                  Studies A.A & A.S
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-        <hr />
-        <div class="work-experience">
-          <h3>WORK EXPERIENCE</h3>
-          <h4>Software Engineer, Macy's.com</h4>
-          <ul>
-            <li>
-              Build and create dashboards using ELK stack to measure various
-              teams metrics
-            </li>
-            <li>
-              Create and maintain React projects responsible for UI on
-              dashboards
-            </li>
-            <li>Configure data pipeline, ingest, and maintain data flow</li>
-          </ul>
-          <h4>Software Engineer Intern, DIRECTV</h4>
-          <ul>
-            <li>
-              Implement scripts to stress test servers using automated test
-              tools: Jenkins, JMeter, CA Lisa, FloodIO
-            </li>
-            <li>
-              Measured system performance by load balancing on VM clusters using
-              AWS
-            </li>
-            <li>
-              Verified user login scenarios on NFL Sunday Ticket: response time,
-              cpu/memory, % error traffic using AppDynamics & Splunk
-            </li>
-            <li>
-              Performed black-box functional software testing for mobile & smart
-              devices
-            </li>
-          </ul>
-          <h4>Computer Science Tutor, UC San Diego</h4>
-          <ul>
-            <li>
-              Assisted with assignments in Java, Python, Unix, GIT, OO design
-            </li>
-            <li>
-              Encouraged & aided students with algorithmic problem-solving 10
-              hrs/week
-            </li>
-            <li>
-              Tutored: Intro to Java, Software Engineering, Software Tools
-            </li>
-          </ul>
-        </div>
-        <div class="projects">
-          <h3>PROJECTS</h3>
-          <h4>Macy's License Plate Store</h4>
-          <ul>
-            <li>
-              Macy's UI Polaris front-end responsive project that utilizes
-              Macy's CLI
-            </li>
-            <li>
-              Build using MVC framework; Backbone/Marionette using Handlebars
-            </li>
-            <li>Layout designed using Flexbox/SCSS and Macy's CSG Guide</li>
-            <li>
-              Partially tested with Karma Tests and Jasmine Testing Framework
-            </li>
-          </ul>
-          <h4>Boba Me (WIP)</h4>
-          <ul>
-            <li>
-              Full-stack; responsive website built with ReactJS, HTML/CSS/JS
-            </li>
-            <li>Purpose: Connect boba drinkers to locations in the Bay Area</li>
-            <li>Implementing functionality to integrate Yelp API</li>
-          </ul>
-          <h4>Iron Orr Gym Website</h4>
-          <ul>
-            <li>
-              Increased web traffic by 20% by desigining differet UI for gym
-              website
-            </li>
-            <li>
-              Analyzed A/B test results & metrics using Optimizely & Google
-              Analytics
-            </li>
-            <li>
-              New layout design increased member appointments & 4 memeberships
-              in 10 weeks
-            </li>
-          </ul>
-        </div>
-        <div class="education">
-          <h3>EDUCATION</h3>
-          <p>
-            <strong>University of California, San Diego,</strong> September 2014
-            - March 2017
-          </p>
-          <ul>
-            <li>Computer Science , B.S</li>
-          </ul>
-          <p>
-            <strong>Skyline College, San Bruno, CA</strong> June 2010 - May 2014
-          </p>
-          <ul>
-            <li>
-              Mathematics, A.A | Natural Sciences A.S | Interdisciplinary
-              Studies A.A & A.S
-            </li>
-          </ul>
-        </div>
+        <aside class="side-content-wrapper">
+          <div class="card">
+            <h4><u>LANGUAGES</u></h4>
+            <ul>
+              <li>Java</li>
+              <li>JavaScript</li>
+              <li>HTML5/CSS6</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h4><u>TECH SKILLS</u></h4>
+            <ul>
+              <li>Object-Oriented</li>
+              <li>REST</li>
+              <li>ELK Stack</li>
+              <li>React/Node</li>
+              <li>Backbone</li>
+              <li>Handlebars</li>
+              <li>Jasmine/Karma</li>
+              <li>Debugging</li>
+              <li>Optimization</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h4><u>MISC</u></h4>
+            <ul>
+              <li>Git</li>
+              <li>Agile</li>
+              <li>MVC</li>
+              <li>SASS</li>
+              <li>Photoshop/Illustrator</li>
+              <li>Chrome Tools</li>
+              <li>A/B Testing</li>
+              <li>SCRUM</li>
+            </ul>
+          </div>
+        </aside>
       </div>
     </main>
   </body>

@@ -1,97 +1,195 @@
-<DOCTYPE html>
+<!-- Created by Vince Chang -->
 
-<html>
-
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
   <head>
-  <title>Vince Chang's Resume</title>
-  <link rel="stylesheet" type="text/css" href="resume_style.css">
+    <meta charset="utf-8" />
+    <title>Vince Chang's Resume</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
-
-  <!-- This is my header that will contain my contact info. -->
-  <div id ="contactInfo">
-  <h1>VINCE CHANG</h1>
-  <p>8510 Costa Verde Blvd. #2130, San Diego, CA 92122</p>
-  <p>Phone: (650) 274-2333 : Email: <a href="vincechangsf@gmail.com">vincechangsf@gmail.com</a></p>
-  <p>LinkedIn: <a href="www.linkedin.com/in/vincechang26">www.linkedin.com/in/vincechang26</a></p>
-  <hr> <!-- hr is horizontal rule, this is a line across to separate contact info from main content -->
-  </div>
-
-  <!-- The rest of the sections have their own div and id. -->
-  <div class="spacing">
-  </br>
-  <h4>OBJECTIVE</h4>
-  <ul>
-  <li>Energetic and hard working 2nd year transfer Computer Science student graduating Spring 2017.</li>
-  <li>Excited to strengthen and acquire new abilities in Front and Backend focusing on Web Development, Mobile App Development, UI/UX.</li>
-  </ul>
-  </div>
-
-
-  <div class="spacing">
-  <h4>CURRENT PROJECTS</h4>
-  <ul>
-  <li><strong>Dancify</strong> is a mobile app that connects you with other people who would like to attend a dance event. Users are matched based on their profile information which include availability, location, gender preference, and music genre. Link: <a href="http://devpost.com/software/dancify">http://devpost.com/software/dancify</a></li>
-  <li><strong>Sudowoodo</strong> is an Android app that notifies users when a plant from their list needs to be watered based on the daily weather report given by Yahoo! Users can also read descriptions on the four plant categories and add/remove plants from their list.</li>
-  <li>Recently learned HTML and CSS to implement a personal website that I am building to display my current school work and projects.</li>
-  </ul>
-  </div>
-
-  <div class="spacing">
-  <h4>WORK EXPERIENCE</h4>
-  <div id="free_text_spacing">
-  <strong><u>Computer Science and Engineering Tutor, University of California, San Diego</strong>, CA - <em>March 2015- Present</em></u>
-  <ul>
-  <li>Assist students with hands-on experience with designing, editing, compiling, and executing programming constructs and application in the Java Language</li>
-  <li>Assist students in weekly 2 hour Software Tools &amp; Techniques Laboratory</li>
-  <li>Each lab focuses on a different topic such as: vim, unix, GDB, Valgrind, JDB, makefiles, GIT, debugging, logging, profiling</li>
-  </ul>
-  </div>
-  </div>
-
-
-  <div class="spacing">
-  <h4>RELEVANT SKILLS</h4>
-  <ul>
-  <li>Java, C, C++, HTML, CSS, Linux, Vim, Eclipse, Sublime, Github, Android Studio, Parse, Balsamiq, Axure
-  </li>
-  </ul>
-  </div>
-
-
-  <div class="spacing">
-  <h4>EDUCATION</h4>
-  <div id="free_text_spacing">
-  <strong><u>University of California, San Diego</strong> - <em>Fall 2014 - Present</em></u>
-  <ul>
-  <li>Computer Science, B.S - Spring 2017 expected graduation</li>
-  <li>Current coursework focusing on Data Structures and Algorithms</li>
-  </ul>
-  <strong><u>Skyline College, San Bruno, CA</strong> - <em>Summer 2010 - Spring 2014</em></u>
-  <ul>
-  <li>Associate in Arts, Mathematics</li>
-  <li>Associate in Arts, Interdisciplinary Studies Letters &amp; Science</li>
-  <li>Associate in Arts, Interdisciplinary Studies Social/Natural Sciences</li>
-  <li>Associate in Science, Natural Science</li>
-  <li>Magna Cum Laude, 3.64 GPA</li>
-  </ul>
-  </div>
-  </div>
-
-  <div class="spacing">
-  <h4>ACHIEVEMENTS AND ACTIVITIES</h4>
-  <ul>
-  <li>Dean's List of Honor Students Recognition -<em>February 2011, July 2011, June 2011</em></li>
-  <li>Michael L. Breslin Memorial Scholarship Recipient -<em>April 2011</em></li>
-  <li>California School Employees Association Scholarship Recipient -<em>December 2011</em></li>
-  <li>Osher Award Scholarship Recipient -<em>April 2011, April 2012</em></li>
-  <li>Carl E. War Scholarship Recipient -<em>April 2013, April 2014</em></li>
-  <li>Trio SSS Grant Aid Recipient -<em>April 2013, April 2014</em></li>
-  <li>Anne Marquart Scholarship -<em>April 2014</em></li>
-  <li>Honors Society -<em>Skyline College</em></li>
-  <li>Phi Theta Kappa Honor Society -<em>Skyline College</em></li>
-  </ul>
-  </div>
+    <main>
+      <header>
+        <h1>VINCENT CHANG</h1>
+        <div class="contact-info">
+          <p><img src="assets/phone.png" alt="phone number" /> (415) 442-2154</p>
+          <p>|</p>
+          <p>
+            <img src="assets/email.png" alt=" email address" />
+            <a href="mailto:vincent.chang@macys.com">vincentchang@macys.com</a>
+          </p>
+          <p>|</p>
+          <p>
+            <img src="assets/linkedin.png" alt="linkedin url" />
+            <a href="https://www.linkedin.com/in/vincechang26">vincechang26</a>
+          </p>
+          <p>|</p>
+          <p>
+            <img src="assets/github.jpg" alt="github url" />
+            <a href="https://github.com/vincehacks">vincehacks</a>
+          </p>
+        </div>
+        <hr />
+      </header>
+      <div class="wrapper">
+        <div class="main-content-wrapper">
+          <section>
+            <h1>WORK EXPERIENCE</h1>
+            <div class="section-content">
+              <h2>Software Engineer, Macy's.com</h2>
+              <ul>
+                <li>
+                  Build and create dashboards using ELK stack to measure various
+                  teams metrics
+                </li>
+                <li>
+                  Create and maintain React projects responsible for UI on
+                  dashboards
+                </li>
+                <li>Configure data pipeline, ingest, and maintain data flow</li>
+              </ul>
+              <h2>Software Engineer Intern, DIRECTV</h2>
+              <ul>
+                <li>
+                  Implement scripts to stress test servers using automated test
+                  tools: Jenkins, JMeter, CA Lisa, FloodIO
+                </li>
+                <li>
+                  Measured system performance by load balancing on VM clusters
+                  using AWS
+                </li>
+                <li>
+                  Verified user login scenarios on NFL Sunday Ticket: response
+                  time, cpu/memory, % error traffic using AppDynamics & Splunk
+                </li>
+                <li>
+                  Performed black-box functional software testing for mobile &
+                  smart devices
+                </li>
+              </ul>
+              <h2>Computer Science Tutor, UC San Diego</h2>
+              <ul>
+                <li>
+                  Assisted with assignments in Java, Python, Unix, GIT, OO
+                  design
+                </li>
+                <li>
+                  Encouraged & aided students with algorithmic problem-solving
+                  10 hrs/week
+                </li>
+                <li>
+                  Tutored: Intro to Java, Software Engineering, Software Tools
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section>
+            <h1>PROJECTS</h1>
+            <div class="section-content">
+              <h2>Macy's License Plate Store</h2>
+              <ul>
+                <li>
+                  Macy's UI Polaris front-end responsive project that utilizes
+                  Macy's CLI
+                </li>
+                <li>
+                  Build using MVC framework; Backbone/Marionette using
+                  Handlebars
+                </li>
+                <li>Layout designed using Flexbox/SCSS and Macy's CSG Guide</li>
+                <li>
+                  Partially tested with Karma Tests and Jasmine Testing
+                  Framework
+                </li>
+              </ul>
+              <h2>Boba Me (WIP)</h2>
+              <ul>
+                <li>
+                  Full-stack; responsive website built with ReactJS, HTML/CSS/JS
+                </li>
+                <li>
+                  Purpose: Connect boba drinkers to locations in the Bay Area
+                </li>
+                <li>Implementing functionality to integrate Yelp API</li>
+              </ul>
+              <h3>Iron Orr Gym Website</h3>
+              <ul>
+                <li>
+                  Increased web traffic by 20% by desigining differet UI for gym
+                  website
+                </li>
+                <li>
+                  Analyzed A/B test results & metrics using Optimizely & Google
+                  Analytics
+                </li>
+                <li>
+                  New layout design increased member appointments & 4
+                  memeberships in 10 weeks
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section>
+            <h1>EDUCATION</h1>
+            <div class="section-content">
+              <p>
+                <strong>University of California, San Diego,</strong> September
+                2014 - March 2017
+              </p>
+              <ul>
+                <li>Computer Science , B.S</li>
+              </ul>
+              <p>
+                <strong>Skyline College, San Bruno, CA</strong> June 2010 - May
+                2014
+              </p>
+              <ul>
+                <li>
+                  Mathematics, A.A | Natural Sciences A.S | Interdisciplinary
+                  Studies A.A & A.S
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <aside>
+          <div class="card">
+            <h1><u>LANGUAGES</u></h1>
+            <ul>
+              <li>Java</li>
+              <li>JavaScript</li>
+              <li>HTML5/CSS6</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h1><u>TECH SKILLS</u></h1>
+            <ul>
+              <li>Object-Oriented</li>
+              <li>REST</li>
+              <li>ELK Stack</li>
+              <li>React/Node</li>
+              <li>Backbone</li>
+              <li>Handlebars</li>
+              <li>Jasmine/Karma</li>
+              <li>Debugging</li>
+              <li>Optimization</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h1><u>MISC</u></h1>
+            <ul>
+              <li>Git</li>
+              <li>Agile</li>
+              <li>MVC</li>
+              <li>SASS</li>
+              <li>Photoshop/Illustrator</li>
+              <li>Chrome Tools</li>
+              <li>A/B Testing</li>
+              <li>SCRUM</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </main>
   </body>
 </html>

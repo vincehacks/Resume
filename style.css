@@ -4,62 +4,49 @@ body{
   font-family: Arial;
 }
 
-hr{
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-aside {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 40%;
-}
-
-aside h1{
+h1, h2{
   font-size: 16px;
-  text-align: center;
-  margin-bottom: 0;
 }
 
 header{
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+}
+
+header h1{
+  font-size: 30px;
+}
+
+aside {
+  /* display: inline; */
+  float: right;
+  width: 40%;
+}
+
+aside h1{
+  text-align: center;
+  margin-bottom: 0;
 }
 
 .contact-info{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  border-bottom: 2px solid #a2a8a1;
+  margin: 2% 10% 2% 10%;
 }
 
-.contact-info p{
+.contact-info span{
+  display: inline;
   margin-left: 10px;
   margin-right: 10px;
 }
-
+/*
 .wrapper{
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
+  display: inline-block;
   margin-top: 25px;
   margin-bottom: 25px;
-}
+} */
 
-.wrapper h1{
-  font-size: 16px;
-}
-
-.wrapper h2{
-  font-size: 16px;
-}
-
-.main-content-wrapper{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+.left-wrapper{
+  display: inline;
+  float: left;
   width: 60%;
   margin: 0px 25px 0px 250px;
   padding-right: 200px;

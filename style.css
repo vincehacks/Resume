@@ -1,62 +1,56 @@
 /* Created by Vince Chang */
 
-body{
+body {
   font-family: Arial;
 }
 
-h1, h2{
+h1,
+h2 {
   font-size: 16px;
 }
 
-header{
+header {
   text-align: center;
 }
 
-header h1{
+header h1 {
   font-size: 30px;
+  margin-top: 3%;
 }
 
 aside {
-  /* display: inline; */
   float: right;
-  width: 40%;
+  width: 21%;
 }
 
-aside h1{
+aside h1 {
   text-align: center;
   margin-bottom: 0;
 }
 
-.contact-info{
+section {
+  margin-left: 45px;
+}
+
+.contact-info {
   border-bottom: 2px solid #a2a8a1;
   margin: 2% 10% 2% 10%;
 }
 
-.contact-info span{
-  display: inline;
+.contact-info span {
   margin-left: 10px;
   margin-right: 10px;
 }
-/*
-.wrapper{
-  display: inline-block;
-  margin-top: 25px;
-  margin-bottom: 25px;
-} */
 
-.left-wrapper{
-  display: inline;
+.left-wrapper {
   float: left;
-  width: 60%;
-  margin: 0px 25px 0px 250px;
-  padding-right: 200px;
+  width: 50%;
+  margin-left: 250px;
+  margin-bottom: 3%;
 }
 
-.section-content{
-  margin-left: 45px;
-}
-
-.card{
+.card {
   border: 1px solid;
-  width: 35%;
+  width: 58%;
+  margin-bottom: 35%;
 }
